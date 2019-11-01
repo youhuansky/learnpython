@@ -14,3 +14,16 @@ print(c)
 # 布尔值其实也是整型 True是1，False是0
 d = True
 print(d + 1)
+
+#python判断数据类型：type()用来检查值的类型
+print(type(None))
+
+print(id(d))
+
+#int()可以将其他的对象转换为整型，不会对原来的变量产生影响
+# a = int(a)
+# print(a)
+# print(type(a))
+print (3 and 2)
+#三元运算符
+print('你好') if True else print('hello')
